@@ -4,7 +4,7 @@ export default function Project(props) {
     return (
         <div>
          <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src={props.img} class="card-img-top" alt="..."/>
+          <img style={{height: "10rem"}} src={props.img} class="card-img-top" alt="..."/>
           <div class="card-body">
             <h5 class="card-title">{props.name}</h5>
             <p class="card-text">{props.description}</p>
