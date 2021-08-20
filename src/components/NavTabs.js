@@ -11,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <p>This is some text.</p>
       <p>This is another text.</p>
     </div>
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
         <a
           href="#home"
