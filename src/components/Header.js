@@ -2,8 +2,8 @@ import React from 'react';
 
 function Header () {
     return (
-        <div style={{background: "purple", marginBottom: "0", paddingBottom: "0"}}>
-            <div class="jumbotron" style={{background: "purple"}}>
+        <div style={{background: "#E6E0B3", marginBottom: "0", paddingBottom: "0"}}>
+            <div class="jumbotron" style={{background: "#E6E0B3"}}>
                 <h1>Meghan Murphy</h1>
                 <p>Welcome. I am a full stack web developer.</p>
             </div>

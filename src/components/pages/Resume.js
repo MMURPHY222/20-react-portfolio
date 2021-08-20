@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div style={{height: "100vh"}}>
+    <div style={{height: "100vh", background: "#507982"}}>
       <h1>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
