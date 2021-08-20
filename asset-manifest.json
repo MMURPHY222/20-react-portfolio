@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/20-react-portfolio/static/js/main.b5870a9f.chunk.js",
-    "main.js.map": "/20-react-portfolio/static/js/main.b5870a9f.chunk.js.map",
+    "main.js": "/20-react-portfolio/static/js/main.708e83f4.chunk.js",
+    "main.js.map": "/20-react-portfolio/static/js/main.708e83f4.chunk.js.map",
     "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.13dd08f8.js",
     "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.13dd08f8.js.map",
     "static/css/2.818011ed.chunk.css": "/20-react-portfolio/static/css/2.818011ed.chunk.css",
@@ -11,12 +11,13 @@
     "static/css/2.818011ed.chunk.css.map": "/20-react-portfolio/static/css/2.818011ed.chunk.css.map",
     "static/js/2.039b4a56.chunk.js.LICENSE.txt": "/20-react-portfolio/static/js/2.039b4a56.chunk.js.LICENSE.txt",
     "static/media/all-story-view.089ba1fb.png": "/20-react-portfolio/static/media/all-story-view.089ba1fb.png",
-    "static/media/screencapture-mmurphy222-github-io-Project-1-2021-08-20-11_07_41.3deafae1.png": "/20-react-portfolio/static/media/screencapture-mmurphy222-github-io-Project-1-2021-08-20-11_07_41.3deafae1.png"
+    "static/media/screencapture-mmurphy222-github-io-Project-1-2021-08-20-11_07_41.3deafae1.png": "/20-react-portfolio/static/media/screencapture-mmurphy222-github-io-Project-1-2021-08-20-11_07_41.3deafae1.png",
+    "static/media/screencapture-mmurphy222-github-io-logans-quiz-2021-08-20-12_38_22.9d13ddfe.png": "/20-react-portfolio/static/media/screencapture-mmurphy222-github-io-logans-quiz-2021-08-20-12_38_22.9d13ddfe.png"
   },
   "entrypoints": [
     "static/js/runtime-main.13dd08f8.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.039b4a56.chunk.js",
-    "static/js/main.b5870a9f.chunk.js"
+    "static/js/main.708e83f4.chunk.js"
   ]
 }
