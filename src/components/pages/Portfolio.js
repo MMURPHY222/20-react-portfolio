@@ -4,14 +4,60 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div class="card" style={{width: "18rem",}}>
+          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#thing" class="btn btn-primary">GitHub</a>
+            <a href="#thing" class="btn btn-primary">Live Link</a>
+          </div>
+      </div>
+      <div class="card" style={{width: "18rem",}}>
+          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#thing" class="btn btn-primary">GitHub</a>
+            <a href="#thing" class="btn btn-primary">Live Link</a>
+          </div>
+      </div>
+      <div class="card" style={{width: "18rem",}}>
+          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#thing" class="btn btn-primary">GitHub</a>
+            <a href="#thing" class="btn btn-primary">Live Link</a>
+          </div>
+      </div>
+      <div class="card" style={{width: "18rem",}}>
+          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#thing" class="btn btn-primary">GitHub</a>
+            <a href="#thing" class="btn btn-primary">Live Link</a>
+          </div>
+      </div>
+      <div class="card" style={{width: "18rem",}}>
+          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#thing" class="btn btn-primary">GitHub</a>
+            <a href="#thing" class="btn btn-primary">Live Link</a>
+          </div>
+      </div>
+      <div class="card" style={{width: "18rem",}}>
+          {/* <img src="..." class="card-img-top" alt="..."> */}
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#thing" class="btn btn-primary">GitHub</a>
+            <a href="#thing" class="btn btn-primary">Live Link</a>
+          </div>
+      </div>
     </div>
   );
 }
