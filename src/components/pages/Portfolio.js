@@ -2,66 +2,22 @@ import React from 'react';
 import Project from '../Project';
 import MarketFinder from '../../img/screencapture-mmurphy222-github-io-Project-1-2021-08-20-11_07_41.png'
 import FanFic from '../../img/all-story-view.png'
+import Montana from '../../img/screencapture-mmurphy222-github-io-logans-quiz-2021-08-20-12_38_22.png'
+import Weather from '../../img/screencapture-mmurphy222-github-io-06-weather-dashboard-2021-08-20-14_01_30.png'
+import Planner from '../../img/screencapture-mmurphy222-github-io-05-day-planner-2021-08-20-14_04_31.png'
+import Fitness from '../../img/screencapture-limitless-anchorage-11451-herokuapp-stats-2021-08-20-14_08_36.png'
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <Project name={"Market Finder"} img={MarketFinder} github={"https://github.com/MMURPHY222/Project-1"} livelink={"https://mmurphy222.github.io/Project-1/"}/>
-      {/* <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src={MarketFinder} class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Market Finder</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="https://github.com/MMURPHY222/Project-1" class="btn btn-primary" style={{margin: ".5em",}}>GitHub</a>
-            <a href="https://mmurphy222.github.io/Project-1/" class="btn btn-primary" style={{margin: ".5em",}}>Live Link</a>
-          </div>
-      </div> */}
-      <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src={FanFic} class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">FanFiction</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="github.com/MMURPHY222/Project-2-FanFic" class="btn btn-primary" style={{margin: ".5em",}}>GitHub</a>
-            <a href="https://mysterious-lowlands-06062.herokuapp.com/" class="btn btn-primary" style={{margin: ".5em",}}>Live Link</a>
-          </div>
-      </div>
-      <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src="..." class="card-img-top" alt="..."/>   
-          <div class="card-body">
-            <h5 class="card-title">Montana Quiz</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>GitHub</a>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>Live Link</a>
-          </div>
-      </div>
-      <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src="..." class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>GitHub</a>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>Live Link</a>
-          </div>
-      </div>
-      <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src="..." class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Planner</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>GitHub</a>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>Live Link</a>
-          </div>
-      </div>
-      <div class="card" style={{width: "18rem", margin: ".5em",}}>
-          <img src="..." class="card-img-top" alt="..."/>
-          <div class="card-body">
-            <h5 class="card-title">Fitness Tracker</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>GitHub</a>
-            <a href="#thing" class="btn btn-primary" style={{margin: ".5em",}}>Live Link</a>
-          </div>
-      </div>
+      <Project name={"Market Finder"} img={MarketFinder} github={"https://github.com/MMURPHY222/Project-1"} livelink={"https://mmurphy222.github.io/Project-1/"} description={"DESCRIPTION"}/>
+      <Project name={"Fan Fiction"} img={FanFic} github={"https://github.com/MMURPHY222/Project-2-FanFic"} livelink={"https://mysterious-lowlands-06062.herokuapp.com/"} description={"DESCRIPTION"}/>
+      <Project name={"Montana Quiz"} img={Montana} github={"https://github.com/MMURPHY222/logans-quiz"} livelink={"https://mmurphy222.github.io/logans-quiz/"} description={"DESCRIPTION"}/>
+
+      <Project name={"Weather Dashboard"} img={Weather} github={"https://github.com/MMURPHY222/06-weather-dashboard"} livelink={"https://mmurphy222.github.io/06-weather-dashboard/"} description={"DESCRIPTION"}/>
+      <Project name={"Planner"} img={Planner} github={"https://github.com/MMURPHY222/05-day-planner"} livelink={"https://mmurphy222.github.io/05-day-planner/"} description={"DESCRIPTION"}/>
+      <Project name={"Fitness Tracker"} img={Fitness} github={"https://github.com/MMURPHY222/18-fitness-tracker"} livelink={"https://limitless-anchorage-11451.herokuapp.com/?id=611713295aee6800166e74cb"} description={"DESCRIPTION"}/>
     </div>
   );
 }
