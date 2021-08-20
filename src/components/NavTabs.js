@@ -1,16 +1,10 @@
 import React from 'react';
+import Header from './Header';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
   <div>
-    <div class="jumbotron">
-      <h1>Bootstrap Tutorial</h1>
-      <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-    </div>
-    <div class="container">
-      <p>This is some text.</p>
-      <p>This is another text.</p>
-    </div>
+    <Header/>
     <ul className="nav nav-tabs justify-content-end">
       <li className="nav-item">
         <a
