@@ -2,7 +2,7 @@ import React from 'react';
 import ProfilePic from '../../img/profile picture.JPG'
 export default function About() {
   return (
-    <div>
+    <div style={{height: "100vh"}}>
       <h1>MM</h1>
       <div style={{display: "flex", flexWrap: "wrap", flexDirection: "row"}}>
       <p style={{width:"50em"}}>

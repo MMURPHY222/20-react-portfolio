@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
   <div>
     <Header/>
-    <ul className="nav nav-tabs justify-content-end">
+    <ul className="nav nav-tabs justify-content-end" style={{background: "#E6E0B3", marginTop: "-1em", paddingTop: "0"}}>
       <li className="nav-item">
         <a
           href="#about"
