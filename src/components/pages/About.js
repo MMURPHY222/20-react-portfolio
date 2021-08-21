@@ -2,7 +2,7 @@ import React from 'react';
 import ProfilePic from '../../img/profile picture.JPG'
 export default function About() {
   return (
-    <div style={{height: "100vh"}}>
+    <div style={{height: "100vh", background: "#E6E0B3"}}>
       <h1>MM</h1>
       <div style={{display: "flex", flexWrap: "wrap", flexDirection: "row"}}>
       <p style={{width:"50em"}}>
@@ -23,7 +23,7 @@ export default function About() {
       through beautiful and responsive design.. I also hope to lend my future tech skills to non-profits, 
       specifically animal shelters where I do frequent volunteer work.  
       </p>
-      <img style={{height:"20em", width:"20em", marginLeft: "2em"}}src={ProfilePic} alt="..."></img>
+      <img style={{height:"20em", width:"25em", marginLeft: "2em"}}src={ProfilePic} alt="..."></img>
       </div>
     </div>
   );
