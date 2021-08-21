@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div style={{height: "100vh"}}>
+    <div style={{height: "100vh", background: "#507982"}}>
       <h1>Contact Page</h1>
       <form>
       <div class="mb-3">

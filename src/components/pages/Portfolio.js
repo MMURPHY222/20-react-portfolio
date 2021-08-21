@@ -9,7 +9,7 @@ import Fitness from '../../img/screencapture-limitless-anchorage-11451-herokuapp
 
 export default function Portfolio() {
   return (
-    <div style={{position: "relative", minHeight: "100vh"}}>
+    <div style={{position: "relative", minHeight: "100vh", background: "#507982"}}>
       <h1>Check out my work</h1>
       <div style={{display: "flex", flexWrap: "wrap", flexDirection: "row"}}>
       <Project name={"Market Finder"} img={MarketFinder} github={"https://github.com/MMURPHY222/Project-1"} livelink={"https://mmurphy222.github.io/Project-1/"} description={"DESCRIPTION"}/>
